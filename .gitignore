@@ -1,7 +1,6 @@
 # .gitignore
 node_modules/
 dist/
-.env
 
 
 # API specific
@@ -53,8 +52,6 @@ coverage/
 *.tsbuildinfo
 
 # Environment files
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -63,7 +60,6 @@ coverage/
 !.env.example
 
 # VS Code
-.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -169,4 +165,4 @@ Thumbs.db
 *.swp
 *.swo
 .idea/
-.vscode/*
+config.bat
