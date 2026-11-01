@@ -19,9 +19,9 @@
   "license": "MIT",
   "author": "Orivex-Backend Contributors",
   "scripts": {
-    "dev": "nodemon",
-    "build": "tsc",
-    "start": "node dist/server.js",
+    "dev": "node init && nodemon",
+    "build": "node init && tsc",
+    "start": "node init && node dist/server.js",
     "lint": "eslint .",
     "test": "vitest",
     "test:watch": "vitest",
